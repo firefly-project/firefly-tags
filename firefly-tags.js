@@ -1,10 +1,12 @@
-import { PolymerElement } from './node_modules/@polymer/polymer/polymer-element.js';
+import { PolymerElement } from '@polymer/polymer/polymer-element.js';
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
+import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
+
 import './firebase_components/firebase-auth.js'
 import './firebase_components/firebase-query.js'
 import './firebase_components/firebase-document.js'
 import './paper_chip/paper-chip-input-autocomplete.js';
-import { html } from '@polymer/polymer/lib/utils/html-tag.js';
-import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
+
 /**
  * `firefly-tags` This component displays a list of tags. An autocomplete component gives the user
  * a list of suggested tags. A firebase query makes use of the 'suggested-values-path', to get a list
@@ -18,7 +20,7 @@ import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
  * @polymer
  * @extends {Polymer.Element}
  */
-class AspFireTags extends PolymerElement {
+class FireflyTags extends PolymerElement {
   static get template() {
     return html`
         <style>
@@ -212,4 +214,4 @@ class AspFireTags extends PolymerElement {
   }
 }
 
-window.customElements.define(AspFireTags.is, AspFireTags);
+window.customElements.define(FireflyTags.is, FireflyTags);
