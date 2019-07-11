@@ -28,12 +28,12 @@
     "polymerfire3": "^3.0.6"
   },
   "devDependencies": {
-    "bower": "^1.8.2",
-    "polymer-cli": "1.5.7",
-    "@polymer/paper-toast": "^3.0.0",
     "@polymer/iron-component-page": "^4.0.0",
     "@polymer/iron-demo-helpers": "^3.0.0",
-    "wct-browser-legacy": "^1.0.1",
-    "@webcomponents/webcomponentsjs": "^2.0.0"
+    "@polymer/paper-toast": "^3.0.0",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "bower": "^1.8.2",
+    "polymer-cli": "^1.9.11",
+    "wct-browser-legacy": "^1.0.1"
   }
 }
