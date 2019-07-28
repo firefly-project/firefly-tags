@@ -1,4 +1,4 @@
-# \<firefly-tags\>
+#<firefly-tags\>
 
 This component displays a list of tags. An autocomplete component gives the user
   a list of suggested tags. A firebase query makes use of the 'suggested-values-path', to get a list

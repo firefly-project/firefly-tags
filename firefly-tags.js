@@ -2,9 +2,11 @@ import { PolymerElement } from '@polymer/polymer/polymer-element.js';
 import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
 
-import './polymerfire/firebase-auth.js'
-import './polymerfire/firebase-query.js'
-import './polymerfire/firebase-document.js'
+
+import '@firefly-elements/polymerfire/firebase-auth.js';
+import '@firefly-elements/polymerfire/firebase-query.js';
+import '@firefly-elements/polymerfire/firebase-document.js';
+
 import './paper_chip/paper-chip-input-autocomplete.js';
 
 /**

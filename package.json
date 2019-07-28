@@ -11,6 +11,7 @@
   "main": "firefly-tags.js",
   "dependencies": {
     "@darkengines/polymerfire": "^3.0.0",
+    "@firefly-elements/polymerfire": "^0.5.0",
     "@polymer/iron-a11y-keys": "^3.0.0",
     "@polymer/iron-a11y-keys-behavior": "^3.0.0",
     "@polymer/iron-demo-helpers": "^3.0.0",
