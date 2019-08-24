@@ -7,7 +7,7 @@ import '@firefly-elements/polymerfire/firebase-auth.js';
 import '@firefly-elements/polymerfire/firebase-query.js';
 import '@firefly-elements/polymerfire/firebase-document.js';
 
-import './paper_chip/paper-chip-input-autocomplete.js';
+import '@aspen-elements/paper-chip/paper-chip-input-autocomplete.js';
 
 /**
  * `firefly-tags` This component displays a list of tags. An autocomplete component gives the user
@@ -20,7 +20,7 @@ import './paper_chip/paper-chip-input-autocomplete.js';
  * @summary This component displays a list of tags.
  * @customElement
  * @polymer
- * @extends {Polymer.Element}
+ * @extends {PolymerElement}
  */
 class FireflyTags extends PolymerElement {
   static get template() {

@@ -1,7 +1,6 @@
 {
   "description": "desc",
-  "name": "@polymer/firefly-tags",
-  "version": "",
+  "name": "@firefly-elements/firefly-tags",
   "resolutions": {
     "inherits": "2.0.3",
     "samsam": "1.1.3",
@@ -10,6 +9,7 @@
   },
   "main": "firefly-tags.js",
   "dependencies": {
+    "@aspen-elements/paper-chip": "^0.5.2",
     "@darkengines/polymerfire": "^3.0.0",
     "@firefly-elements/polymerfire": "^0.5.0",
     "@polymer/iron-a11y-keys": "^3.0.0",
@@ -36,5 +36,25 @@
     "bower": "^1.8.2",
     "polymer-cli": "^1.9.11",
     "wct-browser-legacy": "^1.0.1"
-  }
+  },
+  "version": "0.5.0",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firefly-elements/firefly-tags.git"
+  },
+  "keywords": [
+    "web-components"
+  ],
+  "author": "Mark Fortner, Ishan Subedi, Marko Ignjatovic, Suyash Adhikary",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/firefly-elements/firefly-tags/issues"
+  },
+  "homepage": "https://github.com/firefly-elements/firefly-tags#readme"
 }
