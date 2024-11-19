@@ -24,7 +24,7 @@
     "@polymer/paper-ripple": "^3.0.0",
     "@polymer/paper-styles": "^3.0.0",
     "@polymer/polymer": "^3.0.0",
-    "firebase": "^6.2.4",
+    "firebase": "^10.9.0",
     "paper-chip": "^2.0.20",
     "polymerfire3": "^3.0.6"
   },
